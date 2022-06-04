@@ -31,7 +31,7 @@ Here is the code can be changed.
  - Different results
 
 Here is the link to the test:
-[571](https://github.com/Cthloveross/lab9-markdown/blob/main/test-files/194.md)
+[571](https://github.com/Cthloveross/labreport5/blob/main/571.md)
 
 
  Instead of using `vimdiff` and `diff`, I run the test file `571.md` manually on my implementation and class implementation separately, and then I compared their results.
