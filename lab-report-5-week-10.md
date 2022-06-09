@@ -18,10 +18,10 @@ Here is the link to the test:
  ![image](test1.png)
  ![image](comtest1.png)
 
+The actual output is `[url]`, but I believe mine 
+- How to fix it & which one is correct.
 
-- How to fix it
-
-After comparing the two different results, I shall believe mine might be the correct one. There is a `:` and some texts outside the parentheses and behind the `closeBracket` in this test, so the link is not valid. Therfore, we need to add a if statement to check whether there is texts between `closebracket` and `openParen`. Also, `openParen` should be after the `closeBracket`.
+After comparing the two different results, I shall believe mine might be the correct one. The expected output might be `[Foo*bar\]`, but the actual output is `[url]`. There is a `:` and some texts outside the parentheses and behind the `closeBracket` in this test, so the link is not valid. Therfore, we need to add a if statement to check whether there is texts between `closebracket` and `openParen`. Also, `openParen` should be after the `closeBracket`.
 
 Here is the code can be changed.
 ![image](changecode1.png)
@@ -40,9 +40,9 @@ Here is the link to the test:
 ![image](comtest2.png)
 
 
-- How to fix it
+- How to fix it & which one is correct.
 
-After comparing the two results, I shall believe the implement from professor is right, which should be `[]`. To solve this problem, we need to create a new if statement to check whether there is `!` before `[`. If `!` is existed, it means it does not satisfy the link format, then we cannot add it to `toReturn`.
+After comparing the two results, I shall believe the implement from professor is right, which should be `[]`. The expected output might be `[]`, but the actual output is `[foo]`. To solve this problem, we need to create a new if statement to check whether there is `!` before `[`. If `!` is existed, it means it does not satisfy the link format, then we cannot add it to `toReturn`.
 
 Here is the possible change I made:
 ![image](changecode2.png)
